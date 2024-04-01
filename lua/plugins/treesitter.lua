@@ -4,7 +4,21 @@ return {
   config = function ()
     local config = require('nvim-treesitter.configs')
     config.setup({
-      ensure_installed = { 'lua', 'c', 'javascript' },
+      ensure_installed = {
+        'lua',
+        'c',
+        'javascript',
+        'csv',
+        'dockerfile',
+        'gitignore',
+        'html',
+        'java',
+        'latex',
+        'make',
+        'astro',
+        'markdown',
+        'vue'
+      },
       highlight = {
         enable = true,
         disable = function(lang, buf)

@@ -10,3 +10,4 @@ return {
     vim.keymap.set('n', '<space>hr', gs.reset_hunk)
   end
 }
+
