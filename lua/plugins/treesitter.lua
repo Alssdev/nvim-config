@@ -7,7 +7,10 @@ return {
       ensure_installed = {
         'lua',
         'c',
+        'cmake',
         'javascript',
+        'java',
+        'typescript',
         'csv',
         'dockerfile',
         'gitignore',
@@ -17,7 +20,9 @@ return {
         'make',
         'astro',
         'markdown',
-        'vue'
+        'vue',
+        'css',
+        'rust'
       },
       highlight = {
         enable = true,

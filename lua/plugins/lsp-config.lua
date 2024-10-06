@@ -18,10 +18,12 @@ return {
       lspconfig.lua_ls.setup({
         capabilities = capabilities
       })
+
       lspconfig.clangd.setup({
         capabilities = capabilities
       })
-      lspconfig.tsserver.setup({
+
+      lspconfig.ast_grep.setup({
         capabilities = capabilities
       })
 
@@ -33,7 +35,23 @@ return {
         capabilities = capabilities
       })
 
+      lspconfig.tailwindcss.setup({
+        capabilities = capabilities
+      })
+
+      lspconfig.jdtls.setup({
+        capabilities = capabilities
+      })
+
       lspconfig.volar.setup({
+        capabilities = capabilities
+      })
+
+      lspconfig.cmake.setup({
+        capabilities = capabilities
+      })
+
+      lspconfig.mdx_analyzer.setup({
         capabilities = capabilities
       })
 

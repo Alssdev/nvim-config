@@ -5,7 +5,10 @@ return {
     require('lualine').setup({
       options = {
         theme = 'dracula'
-      }
+      },
+      sections = {
+        lualine_x = { "overseer" },
+      },
     })
   end
 }

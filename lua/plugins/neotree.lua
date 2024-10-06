@@ -19,10 +19,13 @@ return {
 
     require('neo-tree').setup({
       close_if_last_window = true,
+      window = {
+        width = 30
+      },
       filesystem = {
        follow_current_file = {
           enable = true,
-          leave_dirs_open = true
+          leave_dirs_open = false
         },
         group_empty_dirs = true,
         use_libuv_file_watcher = true
